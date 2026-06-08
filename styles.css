@@ -147,6 +147,19 @@ ul { list-style: none; }
   transform: translateY(-1px);
 }
 
+.btn-login {
+  background: transparent;
+  color: var(--gray-700);
+  padding: 0.4rem 0.9rem;
+  font-size: 0.85rem;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-sm);
+}
+.btn-login:hover {
+  background: var(--gray-100);
+  color: var(--black);
+}
+
 /* --- Navbar --- */
 .navbar {
   position: fixed;
